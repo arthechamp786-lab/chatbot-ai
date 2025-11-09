@@ -4,7 +4,7 @@ import time
 from google import genai
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyBnECFse1lPozNpnP8kO5rreU6NEbRgfWE")
+client = genai.Client(api_key="Your API KEY")
 
 # Function to check if last message is from given sender(s)
 def is_last_message_from_sender(chat_history, sender_names=["Hamza Bro", "Ammi"]):
@@ -98,3 +98,4 @@ while True:
         print("⏳ Last message not from Hamza Bro or Abba. Waiting...")
 
     time.sleep(1)
+
