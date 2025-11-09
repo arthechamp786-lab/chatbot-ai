@@ -7,7 +7,7 @@ import pyperclip
 import time
 from google import genai
 
-client = genai.Client(api_key="AIzaSyBnECFse1lPozNpnP8kO5rreU6NEbRgfWE")
+client = genai.Client(api_key="Your Api Key")
 
 # Give yourself time to switch to the right window
 print("starting in 5 seconds")
@@ -63,3 +63,4 @@ time.sleep(0.3)
 pyautogui.press("enter")      # Send message
 
 print("✅ Reply sent successfully!")
+
